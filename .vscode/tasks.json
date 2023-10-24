@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build my project",
+        "type": "shell",
+        "command": "g++",
+        "args": [
+          "-g",
+          "src/DFS.cpp",
+          "src/main.cpp",
+          "-o",
+          "MyProgram.out",
+          "-I",
+          "include/"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
+  
